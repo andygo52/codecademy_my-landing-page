@@ -1,0 +1,52 @@
+img {
+  /* initial style for img */
+  height: 50px;
+  /* additional styles */
+  opacity: 0.5;
+}
+
+body {
+  
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  background-color: lightcyan;
+
+   background-image: url("https://newevolutiondesigns.com/images/freebies/nature-hd-background-2.jpg");
+
+   /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main {
+  text-align: right;
+}
+
+a {
+  color: white;
+}
+
+nav {
+ /*  background-color: black; */
+  opacity: 0.5;
+  background-color: rgba(0,0,0,0.5);
+}
